@@ -1,5 +1,5 @@
 # Stampa
-### Simple date time stamp in for of string
+### Simple date time stamp as string without spaces
 
 
 ```python
