@@ -1,0 +1,2 @@
+# stampa
+simple timestamp
