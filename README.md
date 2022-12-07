@@ -1,41 +1,65 @@
 # Stampa
-### Simple string timestamp
+### Simple date time stamp in for of string
 
 
 ```python
-from Stampa import stamp
+from Stampa import Stamp
 
-stamp
+stamp = Stamp("stamp")
+print(stamp)
 ```
 ######  20221207105819060212
 
 
-
 ```python
-from Stampa import stampmonth as stamp
-
-stamp
-```
-###### 202212
+from Stampa import Stamp
 
 
-
-```python
-from Stampa import stampminute as stamp
-
-stamp
-```
-######  202211301021
-
-
-
-```python
-from Stampa import stampyear as stamp
-
-stamp
+stamp = Stamp("year")
+print(stamp)
 ```
 ###### 2022
 
+```python
+from Stampa import Stamp
+
+stamp = Stamp("month")
+print(stamp)
+```
+###### 202212
+
+```python
+from Stampa import Stamp
+
+stamp = Stamp("day")
+print(stamp)
+```
+######  20221207
+
+```python
+from Stampa import Stamp
+
+stamp = Stamp("hour")
+print(stamp)
+```
+######  2022120717
+
+```python
+from Stampa import Stamp
+
+stamp = Stamp("min")
+print(stamp)
+```
+######  202212071743
+
+
+```python
+from Stampa import Stamp
+
+stamp = Stamp("sec")
+print(stamp)
+```
+######  20221207174413
 
 
 ```python
