@@ -5,7 +5,7 @@ datetime.datetime(2022, 12, 7, 21, 0, 49, 482071)
 ```
 
 ```python
-from Stampa import Stamp
+from stampa import Stamp
 
 stamp = Stamp("stamp")
 print(stamp)
