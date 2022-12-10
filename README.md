@@ -1,5 +1,5 @@
 # Stampa
-## datetime.now() converted to string without spaces
+## datetime.now() without spaces
 ```
 datetime.datetime(2022, 12, 7, 21, 0, 49, 482071)
 ```
